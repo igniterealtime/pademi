@@ -55,7 +55,7 @@ dependencies {
     pademiFreeCompatImplementation "com.android.support:support-emoji-bundled:$supportLibVersion"
     quicksyFreeCompatImplementation "com.android.support:support-emoji-bundled:$supportLibVersion"
     yorubaFreeCompatImplementation "com.android.support:support-emoji-bundled:$supportLibVersion"   
-    implementation 'org.bouncycastle:bcmail-jdk15on:1.58'
+    implementation 'org.bouncycastle:bcmail-jdk15on:1.67'
     //zxing stopped supporting Java 7 so we have to stick with 3.3.3
     //https://github.com/zxing/zxing/issues/1170
     implementation 'com.google.zxing:core:3.3.3'
